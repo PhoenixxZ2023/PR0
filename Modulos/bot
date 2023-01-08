@@ -1,11 +1,11 @@
 #!/bin/bash
 #===================================================
-#   SCRIPT: BOT THE ORION
+#   SCRIPT: BOT TURBONET SSH
 #   DATA ATT: 18 de JuL 2022
-#   DESENVOLVIDO POR: THE_ORION_SCRIPT_PRO
+#   DESENVOLVIDO POR: TURBONET_SSH_SCRIPT_PRO
 #   API SHELLBOT: ORION
-#   CONTATO TELEGRAM: http://t.me/THE_ORION_SCRIPT_PRO
-#   CANAL TELEGRAM: http://t.me/THE_ORION_SCRIPT_PRO
+#   CONTATO TELEGRAM: http://t.me/TURBONET_SSH_SCRIPT_PRO
+#   CANAL TELEGRAM: http://t.me/TURBONET_SSH_SCRIPT_PRO
 #===================================================
 [[ ! -d /etc/SSHPlus ]] && exit 0
 [[ ! -d /etc/bot ]] && exit 0
@@ -23,7 +23,7 @@ fun_menu() {
     [[ "${message_from_id[$id]}" == "$id_admin" ]] && {
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        THE ORION BOT</b>\n"
+        env_msg+="<b>        TURBONET SSH BOT</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
@@ -39,7 +39,7 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
     if [[ "$(grep -w "${message_from_username}" $ativos | grep -wc 'revenda')" != '0' ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        THE ORION BOT</b>\n"
+        env_msg+="<b>        TURBONET SSH BOT</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
@@ -74,7 +74,7 @@ fun_ajuda() {
     if [[ "$id_chatuser" = "$id_admin" ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        THE ORION BOT</b>\n"
+        env_msg+="<b>        TURBONET SSH BOT</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>Comandos Disponiveis</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Exibe menu\n"

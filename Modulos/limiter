@@ -1,9 +1,9 @@
 #!/bin/bash
 #====================================================
 #	SCRIPT: LIMITER SSHPLUS MANAGER
-#	DESENVOLVIDO POR:	CRAZY_VPN
-#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
-#	CANAL TELEGRAM:	http://t.me/sshplus
+#	DESENVOLVIDO POR:	TURBONETVPN2023
+#	CONTATO TELEGRAM:	http://t.me/TURBONETVPN2023
+#	CANAL TELEGRAM:	http://t.me/TURBONETVPN2023
 #====================================================
 clear
 system=$(cat /etc/issue.net)
