@@ -24,7 +24,6 @@ apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/PhoenixxZ2023/PR
 ````
 
 # Telegram
-```
 
 ```
 https://t.me/TURBONETVPN2023
