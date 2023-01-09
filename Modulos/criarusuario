@@ -314,11 +314,6 @@ echo -ne "\033[1;32m📲 LIMITE DE CONEXÕES:\033[1;37m ";read sshlimiter
 	echo -e "\n${cor1}Número de conexões simultâneas deve ser maior que zero!${scor}\n"
 	exit 1
 }
-echo -ne "\033[1;32m💲 VALOR:\033[1;37m ";read vl
-[[ -z $vl ]] && {
-	echo -e "\n${cor1}Valor vazio ou invalido!${scor}\n"
-	exit 1
-}
 final=$(date "+%Y-%m-%d" -d "+$dias days")
 gui=$(date "+%d/%m/%Y" -d "+$dias days")
 pass=$(perl -e 'print crypt($ARGV[0], "password")' $password)
@@ -352,7 +347,6 @@ echo "$username $sshlimiter" >>/root/usuarios.db
 		echo -e "\033[1;32m 🔑SENHA: \033[1;37m$password"
 		echo -e "\033[1;32m ⌛EXPIRA EM: \033[1;37m$gui"
 		echo -e "\033[1;32m 📲LIMITE DE CONEXÃO: \033[1;37m$sshlimiter"
-                echo -e "\033[1;32m 💲VALOR: \033[1;37m$vl"
 		sleep 1
 		function aguarde() {
 			helice() {
