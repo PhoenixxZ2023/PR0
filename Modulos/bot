@@ -4,8 +4,8 @@
 #   DATA ATT: 18 de JuL 2022
 #   DESENVOLVIDO POR: TURBONET_SSH_SCRIPT_PRO
 #   API SHELLBOT: ORION
-#   CONTATO TELEGRAM: http://t.me/TURBONET_SSH_SCRIPT_PRO
-#   CANAL TELEGRAM: http://t.me/TURBONET_SSH_SCRIPT_PRO
+#   CONTATO TELEGRAM: http://t.me/TURBONETVPN2023
+#   CANAL TELEGRAM: http://t.me/TURBONETVPN2023
 #===================================================
 [[ ! -d /etc/SSHPlus ]] && exit 0
 [[ ! -d /etc/bot ]] && exit 0
