@@ -28,7 +28,7 @@
 			sleep 2
 			;;
 			esac
-		done
+	done
 	}
 	fun_conexao
 }
