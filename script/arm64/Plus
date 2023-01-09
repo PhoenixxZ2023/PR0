@@ -207,7 +207,6 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
     echo "clear" >>/root/.bashrc
     echo 'DATE=$(date +"%d-%m-%y")' >>/root/.bashrc
     echo 'TIME=$(date +"%T")' >>/root/.bashrc
-    echo 'figlet -k TURBONET | lolcat' >>/root/.bashrc
     echo 'echo -e " NOME DO SERVIDOR : $HOSTNAME"' >>/root/.bashrc
     echo 'echo -e " SERVIDOR LIGADO À : $(uptime -p)"' >>/root/.bashrc
     echo 'echo -e " DATA : $DATE"' >>/root/.bashrc
