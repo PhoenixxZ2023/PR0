@@ -1,6 +1,5 @@
 #!/bin/bash
     clear
-    figlet "CHECKUSER" | lolcat
     echo -e "\033[46;1;37m              ★ MENU CHECKUSER ★               \033[0m"
     echo -e "\033[01;31m\033[0m"
     echo -e "\033[01;31m\033[1;31m\033[1;34m[\033[1;37m 01 •\033[1;34m]\033[1;37m ➤  \033[1;33mINSTALAR CHECKUSER Conecta4G \033[0m"
